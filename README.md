@@ -5,6 +5,9 @@
 First install everything with `npm install` as the project uses `Jest` for mocks 
 and Babel to access classes.
 
+Without Babel installed properly, the following error could occur during tests
+`Support for the experimental syntax 'classProperties' isn't currently enabled`
+
 ### Example:
 Run `npm start` to execute access.js for an example implementation 
 
