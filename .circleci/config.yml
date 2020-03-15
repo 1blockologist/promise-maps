@@ -5,6 +5,8 @@ jobs:
   build-and-test:
     executor:
       name: node/default
+    environment:
+      - NODE_ENV: development
     steps:
       - checkout
       - node/with-cache:
