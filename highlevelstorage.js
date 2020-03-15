@@ -40,8 +40,7 @@ let wrap = (lowLevelStorage) => {
             map.forEach(function(val, key) {
                 res.push({ key: key, value: val });
             });
-            this.batchPut(res)
-                .catch(error => console.log(error));
+            this.batchPut(res).catch(error => console.log(error));
         }
 
         /**
@@ -56,8 +55,7 @@ let wrap = (lowLevelStorage) => {
                     for (const [key, value] of Object.entries(data)) {
                         if(value[0] == keyRequested) return value[1];
                     }
-                })
-                .catch(error => console.log(error));
+                }).catch(error => console.log(error));
         };
         /**
          * Put allows a user to add an entry asynchronously
@@ -75,8 +73,7 @@ let wrap = (lowLevelStorage) => {
          * @returns {Promise<boolean | void>}
          */
         del = async key => {
-            return Promise.resolve(this.internalStore.delete(key))
-                .catch(error => console.log(error));
+            return Promise.resolve(this.internalStore.delete(key)).catch(error => console.log(error));
         };
 
         /**
@@ -85,8 +82,7 @@ let wrap = (lowLevelStorage) => {
          * @returns {Promise<Uint8Array | BigInt64Array | any[] | Float64Array | Int8Array | Float32Array | Int32Array | Uint32Array | Uint8ClampedArray | BigUint64Array | Int16Array | Uint16Array | void>}
          */
         batchPut = async map => {
-            return Promise.resolve(map.map(elem => this.internalStore.set(elem.key, elem.value)))
-                .catch(error => console.log(error));
+            return Promise.resolve(map.map(elem => this.internalStore.set(elem.key, elem.value))).catch(error => console.log(error));
         };
 
     }
