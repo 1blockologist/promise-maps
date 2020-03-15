@@ -1,4 +1,5 @@
 # Promise Maps
+[![CircleCI](https://circleci.com/gh/1blockologist/promise-maps.svg?style=svg)](https://circleci.com/gh/1blockologist/promise-maps)
 #### Make Asynchronous Promise based operations around a map, because you hate callbacks.
 
 ### Install:
