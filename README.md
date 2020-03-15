@@ -30,7 +30,7 @@ highLevelStorage.batchPut([   // returns a Promise
 
 ### Tests
 
-Run tests with `npm test`
+Run tests with `npm test`, upon successful execution the follow output should be logged
 
 ```
  PASS  test/highlevelstorage.test.js
