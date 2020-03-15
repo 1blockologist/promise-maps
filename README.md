@@ -31,3 +31,14 @@ highLevelStorage.batchPut([   // returns a Promise
 ### Tests
 
 Run tests with `npm test`
+
+```
+ PASS  test/highlevelstorage.test.js
+ PASS  test/lowlevelstorage.test.js
+
+Test Suites: 2 passed, 2 total
+Tests:       7 passed, 7 total
+Snapshots:   0 total
+Time:        1.068s
+Ran all test suites.
+```
