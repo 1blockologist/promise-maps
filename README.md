@@ -2,8 +2,11 @@
 #### Make Asynchronous Promise based operations around a map, because you hate callbacks.
 
 ### Install:
-First install everything in Package.json as the project uses `Jest` for mocks 
+First install everything with `npm install` as the project uses `Jest` for mocks 
 and Babel to access classes.
+
+Without Babel installed properly, the following error could occur during tests
+`Support for the experimental syntax 'classProperties' isn't currently enabled`
 
 ### Example:
 Run `npm start` to execute access.js for an example implementation 
@@ -30,4 +33,15 @@ highLevelStorage.batchPut([   // returns a Promise
 
 ### Tests
 
-Run tests with `npm test`
+Run tests with `npm test`, upon successful execution the follow output should be logged
+
+```
+ PASS  test/highlevelstorage.test.js
+ PASS  test/lowlevelstorage.test.js
+
+Test Suites: 2 passed, 2 total
+Tests:       7 passed, 7 total
+Snapshots:   0 total
+Time:        1.068s
+Ran all test suites.
+```
