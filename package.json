@@ -10,9 +10,6 @@
   "keywords": [],
   "author": "Eric Lamison-White @1blockologist",
   "license": "ISC",
-  "dependencies": {
-    "lodash": "^4.17.15"
-  },
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.8.3",
     "jest": "^25.1.0"
