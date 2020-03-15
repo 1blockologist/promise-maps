@@ -1,6 +1,7 @@
 # Promise Maps
 #### Make Asynchronous Promise based operations around a map, because you hate callbacks.
-[![CircleCI](https://circleci.com/gh/1blockologist/promise-maps.svg?style=svg)](https://circleci.com/gh/1blockologist/promise-maps)
+[![CircleCI](https://circleci.com/gh/1blockologist/promise-maps.svg?style=svg)](https://circleci.com/gh/1blockologist/promise-maps) [![codecov](https://codecov.io/gh/1blockologist/promise-maps/branch/master/graph/badge.svg)](https://codecov.io/gh/1blockologist/promise-maps)
+
 
 ### Install:
 First install everything with `npm install` as the project uses `Jest` for mocks 
