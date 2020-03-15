@@ -2,7 +2,7 @@
 #### Make Asynchronous Promise based operations around a map, because you hate callbacks.
 
 ### Install:
-First install everything with 'npm install' as the project uses `Jest` for mocks 
+First install everything with `npm install` as the project uses `Jest` for mocks 
 and Babel to access classes.
 
 ### Example:
