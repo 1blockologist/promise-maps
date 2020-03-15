@@ -4,7 +4,7 @@
 
 
 ### Install:
-First install everything with `npm install` as the project uses `Jest` for mocks 
+First install everything with `npm install` as the project uses `Jest` & `codecov` for mocks 
 and Babel to access classes.
 
 Without Babel installed properly, the following error could occur during tests
